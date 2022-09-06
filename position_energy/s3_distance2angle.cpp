@@ -3,7 +3,10 @@
 #define S3_R1 11.
 #define S3_R2 35.
 
-void s3_distance2angle(double front_dis, double back_dis)
+#define front_dis 20.
+#define back_dis 20.
+
+void s3_distance2angle()
 {
   // downstream
   double a = S3_R1/front_dis;
